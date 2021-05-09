@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="parent-div">
+        <div class="title"><label for="name"><b>Name</b><span style="color: rgb(226, 6, 6);">*</span></label></div>
+        <div>
+            <div class="left-div">
+                <div><input class="textbox" type="text" name="fname" id="fname" required></div>
+                <div><small>First Name</small></div>
+            </div>
+            <div class="right-div">
+                <div><input class="textbox" type="text" name="lname" id="lname" required></div>
+                <div><small>Last Name</small></div>
+            </div>
+        </div>
+
+        <div class="title"><label for="name"><b>Email</b><span style="color: rgb(226, 6, 6);">*</span></label></div>
+        <div><input type="email" class="textbox" name="email" id="email" required></div>
+
+        <div class="title"><label for="name"><b>Your Experience</b><span style="color: rgb(226, 6, 6);">*</span></label></div>
+        <div class="star-rating">
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </div>
+        <div><small>Overall how would you rate your experience with us ?</small></div>
+        <div class="title"><label for="name"><b>How stisfied are you with</b><span style="color: rgb(226, 6, 6);">*</span></label></div>
+        <div class="table-01">
+          <table>
+            <tr id="title-col">
+              <td></td>
+              <td class="feedback"><label for="veryunsatisfied">Very Unsatisfied</label></td>
+              <td class="feedback"><label for="unsatisfied">Unsatisfied</label></td>
+              <td class="feedback"><label for="neutral">Neutral</label></td>
+              <td class="feedback"><label for="satisfied">Satisfied</label></td>
+              <td class="feedback"><label for="verysatisfied">Very Satisfied</label></td>
+            </tr>
+            <tr id="grey-row">
+              <td class="category"><label for="service">Purchase</label></td>
+              <td class="feedback"><input type="radio" name="purchase" id="veryunsatisfied"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="unsatisfied"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="neutral"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="satisfied"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="verysatisfied"></td>
+            </tr>
+            <tr>
+              <td class="category"><label for="service">Service</label></td>
+              <td class="feedback"><input type="radio" name="service" id="veryunsatisfied"></td>
+              <td class="feedback"><input type="radio" name="service" id="unsatisfied"></td>
+              <td class="feedback"><input type="radio" name="service" id="neutral"></td>
+              <td class="feedback"><input type="radio" name="service" id="satisfied"></td>
+              <td class="feedback"><input type="radio" name="service" id="verysatisfied"></td>
+            </tr>
+            <tr id="grey-row">
+              <td class="category"><label for="service">Company Overall</label></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="veryunsatisfied"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="unsatisfied"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="neutral"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="satisfied"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="verysatisfied"></td>
+            </tr>
+          </table>
+        </div>
+        
+        <div class="title"><label for="name"><b>How likely are you to</b><span style="color: rgb(226, 6, 6);">*</span></label></div>
+        <div class="table-01">
+          <table>
+            <tr id="title-col">
+              <td></td>
+              <td class="feedback"><label for="veryunlikely">Very Unlikely</label></td>
+              <td class="feedback"><label for="unlikely"> Unlikely</label></td>
+              <td class="feedback"><label for="neutral">Neutral</label></td>
+              <td class="feedback"><label for="likely">Likely</label></td>
+              <td class="feedback"><label for="verylikely">Very Likely</label></td>
+            </tr>
+            <tr id="grey-row">
+              <td class="category"><label for="service">Buy from us again</label></td>
+              <td class="feedback"><input type="radio" name="purchase" id="veryunlikely"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="unlikely"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="neutral"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="likely"></td>
+              <td class="feedback"><input type="radio" name="purchase" id="verylikely"></td>
+            </tr>
+            <tr>
+              <td class="category"><label for="service">Recommend our <br> products to others</label></td>
+              <td class="feedback"><input type="radio" name="service" id="veryunlikely"></td>
+              <td class="feedback"><input type="radio" name="service" id="unlikely"></td>
+              <td class="feedback"><input type="radio" name="service" id="neutral"></td>
+              <td class="feedback"><input type="radio" name="service" id="likely"></td>
+              <td class="feedback"><input type="radio" name="service" id="verylikely"></td>
+            </tr>
+            <tr id="grey-row">
+              <td class="category"><label for="service">Recommend our <br> company to others</label></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="veryunlikely"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="unlikely"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="neutral"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="likely"></td>
+              <td class="feedback"><input type="radio" name="companyoverall" id="verylikely"></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="title"><label for="name"><b>Additional Comments or Suggestions</b><span style="color: rgb(226, 6, 6);">*</span></label></div>
+        <div class="comment"><textarea name="comment" id="comment" cols="112" rows="5"></textarea></div>
+
+        <div class="left-div"><input type="button" value="submit" id="submit"></div>
+
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,105 @@
+* {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.parent-div {
+    background-color: rgb(253, 253, 253);
+    border: 1pt lightgray solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 250px 10px 250px;
+}
+
+#email {
+    width: 450px;
+}
+
+.textbox {
+    padding: 2px;
+    width: 200px;
+    height: 25px;
+    border: 1pt lightgray solid;
+    border-radius: 5px;
+}
+
+.left-div {
+    float: left;
+}
+
+.right-div {
+    float: right;
+    width: 70%;
+}
+
+.title {
+    padding: 12px 2px 0px;
+    margin-top: 15px;
+}
+
+.star-rating {
+    color: orange;
+    margin: 2px 0px 5px;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+.table-01 tr td {
+    margin: 10px 0px;
+}
+
+
+
+#grey-row {
+    background-color: rgb(228, 228, 228);
+}
+
+input[type=radio] {
+    align-content: center;
+}
+
+table tr td {
+    border-radius: 2px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.feedback {
+    align-content: center;
+    text-align: center;
+    width: 14%;
+}
+
+.category {
+    text-align: left;
+    width: 30%;
+    font-style: bold;
+}
+
+#title-col {
+    font-size: 12px;
+}
+
+.comment {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#comment {
+    border: 1pt lightgray solid;
+    overflow-x: hidden;
+}
+
+#submit {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1pt lightgray solid;
+    border-radius: 2px;
+}

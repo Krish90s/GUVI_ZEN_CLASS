@@ -1,0 +1,18 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#date {
+    background-color: #16a085;
+    color: rgb(243, 243, 243);
+}
+
+#detail {
+    background-color: #006266;
+    color: rgb(243, 243, 243);
+}
+
+p {
+    text-align: justify;
+}
