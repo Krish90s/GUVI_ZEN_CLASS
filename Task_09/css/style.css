@@ -1,0 +1,37 @@
+input {
+    height: 7rem;
+    border: 0px;
+}
+
+.output {
+    background-color: #2d3436;
+    padding: 10px;
+    height: 10rem;
+    word-wrap: break-word;
+}
+
+
+
+#history {
+    color: #a0abb3;
+    font-size: 2rem;
+    text-align: right;
+}
+
+#result {
+    color: #ecf0f1;
+    font-size: 4rem;
+    text-align: right;
+}
+
+.bg-equal {
+    background-color: #e67e22;
+}
+
+.bg-op {
+    background-color: #f1f2f6;
+}
+
+.btn {
+    width: 100%;
+}

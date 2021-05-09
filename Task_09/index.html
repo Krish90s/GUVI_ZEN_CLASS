@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="output col-12 g-0">
+          <div id="history"></div>
+          <div id="result"></div>
+        </div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="mc" id="mc"  onclick="click_button(this.id)">mc</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="m+" id="m+"  onclick="click_button(this.id)">m+</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="m-" id="m-"  onclick="click_button(this.id)">m-</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="mr" id="mr"  onclick="click_button(this.id)">mr</button></div> 
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="ac" id="ac"  onclick="click_button(this.id)">AC</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="back" id="back"  onclick="click_button(this.id)">&larr;</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="+-" id="+-" onclick="click_button(this.id)">+-</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="/" id="/"  onclick="click_button(this.id)">&divide;</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="7" id="7"  onclick="click_button(this.id)">7</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="8" id="8"  onclick="click_button(this.id)">8</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="9" id="9"  onclick="click_button(this.id)">9</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="*" id="*"  onclick="click_button(this.id)">&times;</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="4" id="4"  onclick="click_button(this.id)">4</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="5" id="5"  onclick="click_button(this.id)">5</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="6" id="6"  onclick="click_button(this.id)">6</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="-" id="-"  onclick="click_button(this.id)">&minus;</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="1" id="1"  onclick="click_button(this.id)">1</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="2" id="2"  onclick="click_button(this.id)">2</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="3" id="3" onclick="click_button(this.id)">3</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-op fs-3 py-3 fst-normal" value="+" id="+"  onclick="click_button(this.id)">+</button></div>
+        <div class="col-6 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="0" id="0"  onclick="click_button(this.id)">0</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-light fs-3 py-3 fst-normal" value="." id="."  onclick="click_button(this.id)">&bull;</button></div>
+        <div class="col-3 g-0"><button class="btn border rounded-0 bg-equal fs-3 py-3 fst-normal" value="=" id="="  onclick="click_button(this.id)">=</button></div>
+      </div>
+    </div>
+
+
+    <script src="/js/script.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.js"></script>
+  </body>
+</html>
