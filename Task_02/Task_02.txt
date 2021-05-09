@@ -1,0 +1,13 @@
+2.Difference between copy by value and copy by reference.
+
+By definition, pass by value means you are making a copy in memory of the actual parameter's value that is passed in, a copy of the contents of the actual parameter.
+Use pass by value when when you are only "using" the parameter for some computation, not changing it for the client program.
+
+In pass by reference (also called pass by address), a copy of the address of the actual parameter is stored.
+Use pass by reference when you are changing the parameter passed in by the client program.     
+
+3 Ways To Copy By Value Any Composite Data Type In JavaScript
+
+1.Use the spread (...) syntax
+2.Use the Object.assign() method
+3.Use the JSON.stringify() and JSON.parse() methods                                                        
