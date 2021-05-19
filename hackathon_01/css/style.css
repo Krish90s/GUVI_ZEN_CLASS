@@ -1,0 +1,30 @@
+
+body {
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+
+#side-bar {
+    height: 100vh;
+    width: 4.5rem;
+    background-color: #284255;
+}
+
+#side-bar div {
+    height: 4.1rem;
+    margin: 0, auto;
+}
+
+#side-bar img {
+    width: 2rem;   
+}
+
+
+#freshdesk-logo {
+ background-color: #02b875;
+}
+
+#main-navbar {
+    height: 4.1rem;
+    background-color: #ffffff;
+}
